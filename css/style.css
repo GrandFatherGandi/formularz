@@ -294,11 +294,10 @@ body {
   margin: 4px;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 360px) {
   .recover .form-button,
   .sign-in .form-button,
   .subscribe .form-button {
-    margin: 0 20px;
     width: 100%;
   }
 }
