@@ -1,0 +1,179 @@
+<!DOCKTYPE html>
+<html lang="en">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Masteralb</title>
+    </head>
+    <body>
+        <header class="header">
+            <img class="logo-top" src="/img/Masteralb.com%20TOP%20LOGO.png" alt="logo">
+        </header>
+        <div class="row">
+         <div class="container">
+            <div class="register">
+                <h2 class="form-tittle">Register form</h2>
+                <form class="form">
+                    <div class="form-content">
+                        <div class="form-group">
+                            <label class="form-label" for="username">
+                                <ion-icon name="person"></ion-icon>
+                            </label>
+                            <input class="form-input username" type="text" placeholder="Username" id="username">   
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="password" >
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </label>
+                            <input class="form-input password" type="password" placeholder="Password" id="password"> 
+                         </div>
+                         <div class="form-group">
+                            <label class="form-label" for="repeat-password" >
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </label>
+                            <input class="form-input password" type="password" placeholder="Confirm Passowrd" id="repeat-password">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">
+                                <ion-icon name="mail"></ion-icon>
+                            </label>
+                            <input type="email" class="form-input email" placeholder="Email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="sel`ect">
+                                <ion-icon name="pin"></ion-icon>
+                            </label>
+                            <select class="form-select select" id="select" required>
+                            <option class="option" value=""disabled selected hidden>Your Location</option>
+                            <option class="option" value="">London</option>
+                            <option class="option" value="">Moscov</option>
+                            <option class="option" value="">Berlin</option>
+                         </select>  
+                        </div>
+                        <div class="form-group form-checbox-group">
+                            <input type="checkbox" class="checkbox" checked id="privacy">
+                            <label class="checkbox-icon" for="privacy">
+                            </label>
+                            <label for="privacy" class="checkbox-label">I have read and accept the terms of use.</label>
+                         </div>
+                         <footer class="form-footer">
+                             <button type="submit" class="form-button">Sign Up</button>
+                        </footer>
+                </div>
+                 </form>
+            </div>
+            <div class="send-email">
+                <h2 class="form-tittle">Send Email</h2>
+                <form class="form">
+                    <div class="form-content">
+                        <div class="form-group">
+                            <label class="form-label" for="send-username">
+                                <ion-icon name="person"></ion-icon>
+                            </label>
+                            <input class="form-input username" type="text" placeholder="Username" id="send-username">   
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="send-email">
+                                <ion-icon name="mail"></ion-icon>
+                            </label>
+                            <input type="email" class="form-input email" placeholder="Your Email" id="send-email">
+                        </div>
+                        <textarea class="form-textarea" rows="14" placeholder="Type your message ..."></textarea>
+                        <div class="form-group form-checbox-group">
+                            <input type="checkbox" class="checkbox" checked id="email-copy">
+                            <label class="checkbox-icon" for="email-copy">
+                            </label>
+                            <label for="privacy" class="checkbox-label">Send a copy to my Email</label>
+                         </div>
+                         <footer class="form-footer">
+                             <button type="submit" class="form-button">Send Email</button>
+                        </footer>
+                </div>
+                 </form>
+            </div>
+
+         </div>
+
+         <div class="container"> 
+           <div class="sign-in">
+            <h2 class="form-tittle">Sign In form</h2>
+               <form class="form">
+                   <div class="form-content">
+                       <div class="form-group">
+                           <label class="form-label" for="sign-username">
+                               <ion-icon name="person"></ion-icon>
+                           </label>
+                           <input class="form-input username" type="text" placeholder="Username" id="sign-username">   
+                       </div>
+                       <div class="form-group">
+                           <label class="form-label" for="sign-password">
+                               <ion-icon name="lock-closed"></ion-icon>
+                           </label>
+                           <input class="form-input password" type="password" placeholder="Password" id="sign-password"> 
+                        </div>
+                        <footer class="form-footer">
+                            <div class="form-group form-checbox-group">
+                                <input type="checkbox" class="checkbox" checked id="remember">
+                                <label class="checkbox-icon" for="remember">
+                                </label>
+                                <label for="remember" class="checkbox-label">Remember me</label>
+                             </div>
+                            <button type="submit" class="form-button form-button-sign">Sign In</button>
+                       </footer>
+               </div>
+                </form>
+           </div>
+           <div class="recover">
+            <h2 class="form-tittle">Recover Form</h2>
+               <form class="form">
+                   <div class="form-content">
+                       <div class="form-group">
+                           <label class="form-label" for="recover-email">
+                               <ion-icon name="mail"></ion-icon>
+                           </label>
+                           <input type="email" class="form-input email" placeholder="Enter your Email" id="recover-email">
+                       </div>
+                       <div class="form-group">
+                        <label class="form-label" for="recover-telephone">
+                            <ion-icon name="person"></ion-icon>
+                        </label>
+                        <input class="form-input telephone" type="tel" placeholder="Enter your phone number" id="recover-telephone"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">   
+                        </div>
+                        <footer class="form-footer">
+                            <button type="submit" class="form-button">Send</button>
+                            <button class="form-button">Done</button>
+                       </footer>
+               </div>
+                </form>
+           </div>
+           <div class="subscribe">
+            <h2 class="form-tittle">Subscribe Form</h2>
+               <form class="form">
+                   <div class="form-content">
+                       <div class="form-group">
+                           <label class="form-label" for="email">
+                               <ion-icon name="mail"></ion-icon>
+                           </label>
+                           <input type="email" class="form-input email" placeholder="Email" id="email">
+                       </div>
+                        <footer class="form-footer">
+                            <button type="submit" class="form-button">Sign Up</button>
+                            <button class="form-button form-button-cancel">No, Thanks</button>
+                       </footer>
+               </div>
+                </form>
+           </div>
+           <div class="bottom-logo-cointainer">
+               <img src="/img/Masteralb.com LOGO.png" alt="logo-bottom" class="logo-bottom">
+               
+           </div>
+        </div>
+        </div>
+        
+         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </body>
+    
+    
+</html>
